@@ -1,0 +1,49 @@
+h1{
+
+    text-align: center;
+    color: white;
+}
+#menu-outer {
+    height: 40px;
+    background-color: white;
+}
+.table {
+    display: table;
+    margin: auto;
+}  
+
+div#piccont {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    
+}
+ul#Hlist li {
+    display: inline;
+    padding: 100px;
+    
+    
+}
+
+
+body{
+    background-color: black;
+    margin: 0%;
+}
+.A {
+    color: white;
+}
+#table2 {
+    align-content: center;
+
+}
+footer{
+    color: blue;
+}
+
+#demo {
+    color: white;
+}
+#demo2 {
+    color: aqua;
+}
