@@ -26,13 +26,20 @@ function RandomCoun() {
 }
 function showPic() {
     const userNum = prompt("How many cat pictures do you want")
+    if(userNum <= 7) 
+    {
+        for (let i = 0; i < userNum; i++) {
+            document.write("<img src='https://placekitten.com/640/360'></img>")
 
-    for (let i = 0; i < userNum; i++) {
-        document.write("<img src='https://placekitten.com/640/360'></img>")
+        }
+    }else{
+alert("testx")
+    }
+   
 
 
     };
-}
+
 
 
 function ReasonGo() {
